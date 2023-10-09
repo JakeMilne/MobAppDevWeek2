@@ -8,10 +8,11 @@
 
     <Spinner
         android:id="@+id/locationSpinner"
-        android:layout_width="330dp"
-        android:layout_height="180dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="40dp"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="52dp"
+        android:entries="Aberdeen, UK"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -19,9 +20,9 @@
         android:id="@+id/locationView2"
         android:layout_width="308dp"
         android:layout_height="37dp"
-        android:layout_marginStart="51dp"
-        android:layout_marginTop="45dp"
-        android:text="Select a location"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="216dp"
+        android:text="Please select a location"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
